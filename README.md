@@ -45,11 +45,21 @@ This will compile the source files and generate the executable at `build/naadya`
 
 ### Running a Naadya Script
 
-Sample Naadya scripts are placed in the `scripts/` directory. To run the sample script:
+You can run a .ndy script by providing the script filename as a command-line argument to the interpreter:
 
 ```sh
+./build/naadya path/to/your_script.ndy
+````
+
+For example:
+```sh
+./build/naadya scripts/myscript.ndy
+````
+
+Or simply use the make run command to run the sample script:
+```sh
 make run
-```
+````
 
 This runs the interpreter on `scripts/myscript.ndy`.
 
