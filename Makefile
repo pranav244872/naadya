@@ -26,7 +26,7 @@ clean:
 
 # Run the binary with the given script
 run: $(TARGET)
-	./$(TARGET) ../scripts/myscript.ndy
+	./$(TARGET) scripts/myscript.ndy
 
 # Full rebuild and run
 rebuild: clean all run
